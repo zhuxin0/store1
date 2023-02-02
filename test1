@@ -1,0 +1,9 @@
+ for (var a = 1; a <= 5; a++) {
+            (function(a) {
+                // console.log(a, 'a');
+                setTimeout(function() {
+                    console.log(a);
+                }, a * 1000)
+            })(a)
+
+        }
